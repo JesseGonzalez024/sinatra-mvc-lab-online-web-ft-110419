@@ -1,9 +1,12 @@
 class PigLatinizer
   
-  
-  
-  
-  
+  def piglatinize(thing)
+    pig(thing)
+  end
+
+  def to_pig_latin(string)
+    pig(string)
+  end
   
   def pig(word)
     alpha = ('a'..'z').to_a + ('A'..'Z').to_a
